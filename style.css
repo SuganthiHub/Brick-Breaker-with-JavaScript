@@ -1,0 +1,28 @@
+*      {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body      {
+    font-family: Arial, sans-serif;
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#hud      {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background: white;
+    border: 2px solid #ddd;
+    border-bottom: none;
+}
+#gameCanvas      {
+    display: block;
+    background: white;
+    border: 2px solid #ddd;
+}
+
